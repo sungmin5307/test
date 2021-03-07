@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="kr">
+	<head>
+		<link rel="shortcut icon" sizes="16x16 32x32 64x64" href="img/logo.png" />
+		<!--탭 옆에 사진 (size 없어도 됨)-->
+		<title>Home - my first website.</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="this is my website" />
+		<!-- 구글 검색 시 설명 -->
+	</head>
+	<body>
+		<form>
+			<label for="profile">Profile Photo</label>
+			<input id="profile" type="file" accept=".png,.pdf" />
+			<!-- for 과 id 에 동일한 값 입력하면 for 클릭 시 input id 실행-->
+			<!-- type = 파일 업로드, accept = 업로드 확장자 지정-->
+
+			<label for="First-name">First Name</label>
+			<input id="First-name" required placeholder="First-Name" type="text" />
+			<!-- required = 반드시 입력하게끔-->
+			<!-- placeholder = 설명-->
+
+			<label for="website">Website</label>
+			<input id="website" required placeholder="Name" type="date" />
+		</form>
+	</body>
+</html>

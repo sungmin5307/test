@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="kr">
+	<head>
+		<link rel="shortcut icon" sizes="16x16 32x32 64x64" href="img/logo.png" />
+		<!--탭 옆에 사진 (size 없어도 됨)-->
+		<title>Home - my first website.</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="this is my website" />
+		<!-- 구글 검색 시 설명 -->
+	</head>
+	<body>
+		<form>
+			<input type="file" accept=".png,.pdf" />
+			<!-- 파일 업로드, accept = 업로드 확장자 지정-->
+			<input required placeholder="Name" type="text" />
+			<!-- required = 반드시 입력-->
+			<!-- placeholder = 설명-->
+			<input required placeholder="Last Name" type="text" />
+			<input required placeholder="Username" minlength="10" type="text" />
+			<!-- minlength = 최소 10글자 입력-->
+			<input required placeholder="Password" type="password" />
+			<input type="Submit" value="Create Account" />
+		</form>
+	</body>
+</html>
